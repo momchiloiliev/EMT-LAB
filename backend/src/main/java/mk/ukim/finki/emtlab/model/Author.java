@@ -2,7 +2,6 @@ package mk.ukim.finki.emtlab.model;
 
 
 import lombok.Data;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import javax.persistence.*;
 
