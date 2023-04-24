@@ -13,8 +13,8 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@CrossOrigin
-@RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:3000")
+@RequestMapping("/api/books/")
 public class BookController {
     private final BookService bookService;
 
