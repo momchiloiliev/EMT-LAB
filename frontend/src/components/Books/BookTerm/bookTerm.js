@@ -16,7 +16,7 @@ const BookTerm = (props) => {
                 </Link>
 
                 <button
-                    className="btn btn-success"
+                    className="btn btn-success mr-2"
                     onClick={() => props.mark(props.term.id)}
                     disabled={props.term.availableCopies === 0}>
                     Mark as Taken

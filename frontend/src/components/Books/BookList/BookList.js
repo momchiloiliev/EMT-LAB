@@ -63,7 +63,13 @@ class Books extends React.Component{
                     pageRangeDisplayed={5}
                     onPageChange={this.handlePageClick}
                     containerClassName={"pagination m-4 justify-content-center"}
-                    activeClassName={"active"}/>
+                    activeClassName={"active"}
+                    breakLinkClassName={'page-link'}
+                    pageLinkClassName={'page-link'}
+                    previousClassName={'page-item'}
+                    previousLinkClassName={'page-link'}
+                    nextClassName={'page-item'}
+                    nextLinkClassName={'page-link'}/>
             </div>
         );
     }
